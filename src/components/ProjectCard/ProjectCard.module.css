@@ -1,0 +1,43 @@
+.container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 5px;
+  width: 350px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 0px 2px #222);
+  transition: filter 0.5s;
+}
+
+.container:hover {
+  filter: drop-shadow(0px 0px 5px #222);
+}
+
+.container img {
+  border: 2px solid #fff;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.container h2 {
+  color: #bc0000;
+}
+.container span {
+  line-height: 24px;
+  margin: 5px 0;
+}
+
+.container p {
+  line-height: 18px;
+}
+
+.container svg {
+  fill: #fff;
+}
+
+.container svg:hover {
+  fill: #009108;
+}

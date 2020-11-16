@@ -1,0 +1,84 @@
+/* Heading section */
+
+.heading {
+  display: flex;
+  padding: 40px 80px;
+  justify-content: space-between;
+  color: #fff;
+  background: #000;
+}
+
+.headingContent {
+  padding-top: 160px;
+}
+
+.headingContent h1 {
+  font-size: 32px;
+}
+
+.headingContent span {
+  color: #009108;
+}
+
+.heading img {
+  width: 40%;
+}
+
+/* About section */
+
+.about {
+  padding: 20px 80px;
+}
+
+.about h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+}
+
+/* Our projects section */
+
+.projects {
+  padding: 20px 80px;
+  background: #000;
+}
+
+.projects h1 {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Contact Us section */
+
+.contacts {
+  padding: 20px 80px;
+  background: #fff;
+}
+
+.contacts h1 {
+  color: #000;
+  font-size: 32px;
+  text-align: center;
+}
+
+.contact {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact svg {
+  margin-right: 20px;
+}

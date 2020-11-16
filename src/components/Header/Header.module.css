@@ -1,0 +1,31 @@
+.container {
+  position: fixed;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  padding-bottom: 2px;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid #009108;
+  color: #009108;
+}
