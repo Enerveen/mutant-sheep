@@ -36,6 +36,7 @@
 
 .container svg {
   fill: #fff;
+  transition: all 0.2s;
 }
 
 .container svg:hover {

@@ -8,6 +8,8 @@ import logo from '../../img/logo.png';
 import phone from '../../svg/phone.svg';
 import loc from '../../svg/location.svg';
 import email from '../../svg/email.svg';
+import vk from '../../svg/vk.svg';
+import play from '../../svg/play.svg';
 
 import cvlogo from '../../img/cr/logo.png';
 
@@ -58,18 +60,26 @@ const Main = () => {
       <section className={s.contacts} id='contacts'>
         <h1>Contact us</h1>
         <div className={s.contactCont}>
-          <div className={s.contact}>
+          <a href='tel:+375 (29) 107-54-80' className={s.contact}>
             <SVG src={phone} />
             <span>+375 (29) 107-54-80</span>
-          </div>
-          <div className={s.contact}>
+          </a>
+          <a href='mailto:mutantsheepteam@gmail.com' className={s.contact}>
             <SVG src={email} />
             <span>mutantsheepteam@gmail.com</span>
-          </div>
-          <div className={s.contact}>
+          </a>
+          <a href='https://goo.gl/maps/hr4vb5mSUQ4U3rvr6' className={s.contact + ' ' + s.map}>
             <SVG src={loc} />
             <span>Torzhkovskaya st., 15, Saint-Petersburg, Russia</span>
-          </div>
+          </a>
+          <a href='https://vk.com/mutant_sheep' className={s.contact + ' ' + s.vk}>
+            <SVG src={vk} />
+            <span>Mutant Sheep</span>
+          </a>
+          <a href='https://play.google.com/store/apps/dev?id=7849234903970494951' className={s.contact + ' ' + s.play}>
+            <SVG src={play} />
+            <span>MutantSheep</span>
+          </a>
         </div>
       </section>
     </div>

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className={s.container}>
       <div>
-        <a href='#' className={s.logo}>
+        <a href='#top' className={s.logo}>
           <span style={{ color: '#009108' }}>Mutant </span>
           <span style={{ color: '#fff' }}>She</span>
           <span style={{ color: '#bc0000' }}>ep</span>
